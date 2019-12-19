@@ -1,0 +1,12 @@
+md5: 752e86abbb80cf3a4a6fdbe77ea600fd
+cmd: python get_data.py data/data_specification.yaml data/dataset/
+wdir: ..
+deps:
+- md5: a74aa8ade7a70d19ca062660be3f3acd
+  path: data/data_specification.yaml
+outs:
+- md5: 465fe3c869d69e9fdba262e3225638db.dir
+  path: data/dataset
+  cache: true
+  metric: false
+  persist: false
