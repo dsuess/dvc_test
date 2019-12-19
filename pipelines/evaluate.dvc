@@ -1,0 +1,12 @@
+md5: 6fd2e771990670cb5ed8ae5c55bb0262
+cmd: python evaluate.py train/model.txt train/metrics.json
+wdir: ..
+deps:
+- md5: 4d9a0c05df94938d02b537ea9728a84f
+  path: train/model.txt
+outs:
+- md5: bf8b9a0cd3fc481c06d17a25fd33a405
+  path: train/metrics.json
+  cache: false
+  metric: true
+  persist: false
