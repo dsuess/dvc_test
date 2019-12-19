@@ -1,0 +1,12 @@
+md5: e0f58519a148de326230e03434ea322f
+cmd: python train.py data/dataset/testdata train/model.txt
+wdir: ..
+deps:
+- md5: 1381d73a945e414d09ce6211f54084db.dir
+  path: data/dataset/testdata
+outs:
+- md5: 4d9a0c05df94938d02b537ea9728a84f
+  path: train/model.txt
+  cache: true
+  metric: false
+  persist: false
