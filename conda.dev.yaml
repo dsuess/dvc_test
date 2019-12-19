@@ -1,0 +1,7 @@
+name: dvc
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - click
+  - pyyaml
