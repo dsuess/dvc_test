@@ -1,0 +1,7 @@
+md5: 91ddc77d981e3291c5b12bf41381ffdc
+outs:
+- md5: a74aa8ade7a70d19ca062660be3f3acd
+  path: data_specification.yaml
+  cache: true
+  metric: false
+  persist: false
