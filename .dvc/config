@@ -1,2 +1,4 @@
 [core]
 analytics = false
+['remote "zeus"']
+url = ssh://zeus/home/users/daniel/dvc_cache
